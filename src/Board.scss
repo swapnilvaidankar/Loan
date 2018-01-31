@@ -1,0 +1,24 @@
+.board {
+    .boardHeader{
+
+        text-align: left;
+    }
+    .selectors{
+        display: flex;
+        direction: row;
+        justify-content: space-around;
+
+
+        .selector{
+            border-radius: 50%;
+            border: 2px solid black;
+            width: 80px;
+            height: 80px;
+            &:hover{
+                border: 2px solid grey;
+                background: lightgray;
+            }
+        }
+
+    }
+}
