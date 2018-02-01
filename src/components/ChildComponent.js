@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './ChildComponent.scss';
+import '../scss/ChildComponent.scss';
 
 class ChildComponent extends Component {
   render() {

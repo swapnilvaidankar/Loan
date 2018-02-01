@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './SiteHeader.scss';
+import '../scss/SiteHeader.scss';
 
 
 class SiteHeader extends Component {

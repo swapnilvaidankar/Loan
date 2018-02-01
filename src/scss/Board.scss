@@ -1,15 +1,11 @@
-.board {
-    .boardHeader{
 
-        text-align: left;
-    }
-    .selectors{
-        display: flex;
-        direction: row;
-        justify-content: space-around;
-
-
-        .selector{
+ul{
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    list-style: none;
+    li{
+        .round{
             border-radius: 50%;
             border: 2px solid black;
             width: 80px;
@@ -19,6 +15,5 @@
                 background: lightgray;
             }
         }
-
     }
 }
